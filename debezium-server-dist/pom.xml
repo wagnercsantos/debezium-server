@@ -370,12 +370,12 @@
                 </dependency>
                 <dependency>
                     <groupId>io.debezium.quarkus</groupId>
-                    <artifactId>debezium-quarkus-mysql</artifactId>
+                    <artifactId>debezium-quarkus-mariadb</artifactId>
                     <version>${project.version}</version>
                 </dependency>
                 <dependency>
                     <groupId>io.debezium.quarkus</groupId>
-                    <artifactId>debezium-quarkus-mariadb</artifactId>
+                    <artifactId>debezium-quarkus-mysql</artifactId>
                     <version>${project.version}</version>
                 </dependency>
                 <dependency>
@@ -391,11 +391,6 @@
                 <dependency>
                     <groupId>io.debezium.quarkus</groupId>
                     <artifactId>debezium-quarkus-sqlserver</artifactId>
-                    <version>${project.version}</version>
-                </dependency>
-                <dependency>
-                    <groupId>io.debezium.quarkus</groupId>
-                    <artifactId>debezium-quarkus-db2</artifactId>
                     <version>${project.version}</version>
                 </dependency>
                 <dependency>
